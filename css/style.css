@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500px;
+    font-family: Poppins;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#backtop {
+    position: fixed;
+    right: 50px;
+    bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    font-size: 50px;
+    background-color: #fff;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 1px #000;
+    z-index: 99;
+}
+
+.navbar-shrink  {
+    height: 70px;
+    box-shadow: 0 0 5px 2px #fff;
+}
+
+#backtop a {
+    color: #000;
+}
+
+#backtop.backtop-show {
+    bottom: 50px;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    fill: linear-gradient(155deg, #383638 2.06%, #0B0B0B 33.08%);
+    background-image: url(../images/Section\ 1.png);
+    background-size: cover;
+    font-size: 16px;
+}
+.nav-logo-link{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+ }
+.nav-logo-link p {
+    color: #fff;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-list {
+    height: 100%;
+    display: flex;
+    column-gap: 40px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    border-top: 3px solid transparent;
+    color: #8B8E99;
+    height: 100%;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #3858D6;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+}
+
+
+.dark header {
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.dark .ilhom {
+    background-image: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.dark .home-left h1 {
+    color: #000;
+}
+
+.dark .header-icon {
+    color: #000;
+}
+
+
+.dark .navbars {
+    color: #000;
+}
+
+.dark .nav-link {
+    color: #000;
+}
+
+
+
+
+.header-icon {
+    color: #fff;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.ilhom {
+    background-image: url(../images/Section\ 1.png);
+    background-size: cover;
+}
+
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-left h1 {
+    max-width: 457px;
+    margin-top: 150px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 125.5%;
+    margin-bottom: 10px; 
+}
+.home-left p {
+    max-width: 456px;
+    color: #8B8E99;
+    line-height: 125.5%;
+    margin-bottom: 30px;
+}
+
+.img i {
+    position: absolute;
+}
+.watches-price {
+    overflow: hidden;
+}
+
+.watches-price:hover {
+    box-shadow: 0 1px 10px 0 #000;
+}
+
+.img i:nth-child(2){
+    top: -50px;
+    right: -17px;
+    color: #fff;
+    background-color: #FF6B6B;
+    padding: 11px 8px 7px 8px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.img i:nth-child(3) {
+    top: -20px;
+    right: -40px;
+    color: #fff;
+    background-color: #3858D6;
+    padding: 11px 8px 7px 8px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.watches-price:hover i:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+
+}
+.watches-price:hover i:nth-child(3) {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.dark .section-4-text {
+    background-color: transparent;
+}
+
+.dark .section-5 {
+    background-color: transparent;
+}
+
+.dark main  {
+    color: #FFF;
+    background-color: #000;
+}
+
+
+/* .ilhom img {
+    max-width: 100%;
+} */
+
+.fa-cart-shopping {
+    position: relative;
+}
+
+i span {
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    width: 15px;
+    height: 15px;
+    padding-top: 3.5px;
+    padding-left: 6px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-family: Poppins;
+    background-color: #3858D6;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.search input {
+    width: 443px;
+    height: 60px;
+    padding: 15px 20px  15px  56px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background: #FFF;
+}
+
+.search button {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    width: 112px;
+    height: 45px;
+    padding: 10px 6px 14px 6px;
+    border: none;;
+    background-color: #3858D6;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#watch {
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.watches {
+    display: grid;
+    grid-template-columns: 354px 354px 354px;
+    column-gap: 20px;
+    margin-bottom: 126px;
+}
+
+.watch-1 , .watch-2 , .watch-3 {
+    display: flex;
+    column-gap: 26px;
+    max-width: 354px;
+    height: 239px;
+    border-radius: 22px;
+    background: #F6F6F6;
+}
+
+.watch-1 img , .watch-2 img , .watch-3 img  {
+    padding: 46px 0 44px 41px;
+}
+
+.watch-1 h3 , .watch-2 h3 , .watch-3 h3 {
+    padding-top: 57px;
+    color: #1E1D1D;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.watch-1 p , .watch-2 p , .watch-3 p {
+    width: 173px;
+    height: 76px;
+    padding-right: 10px;
+    flex-shrink: 0;
+    color: #8B8E99;
+    font-family: Inter;
+    margin-top: 9px;
+
+}
+
+.watch-text-list {
+    margin-bottom: 60px;
+}
+
+.watch-text-list h3 {
+    color: #3858D6;
+    text-align: center;
+    font-family: Inter;
+}
+
+.watch-text-list p {
+    color: #1E1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.watches-3 {
+    display: grid;
+    grid-template-columns: 334px 334px 334px;
+    justify-content: space-around;
+}
+
+.img {
+    position: relative;
+    padding: 29px 0;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.watches-price {
+    text-align: center;
+}
+span {
+    color: #8B8E99;
+    padding-right: 3px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.view {
+    border: 1px solid transparent;
+    background-color: #3858D6;
+    border-radius: 15px;
+    width: 196px;
+    height: 46px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 155px
+}
+
+.view:hover {
+    border: 1px solid #3858D6;
+    background-color: #fff;
+    color: #3858D6;
+}
+
+.owl-theme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 47px;
+}
+
+.section-4-text {
+    display: flex;
+    max-width: 524px;
+    height: 239px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #F6F6F6;
+}
+
+.section-4-text img {
+    padding: 30px 28px 30px 34px;
+}
+
+.section-4-text-list {
+    padding: 58px 0 49px 0;
+}
+
+.section-4-text-list h3{
+    color: #1E1D1D;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.section-4-text-list p  {
+    color: #8B8E99;
+}
+.section-4-img {
+    margin-top: -20px;
+}
+
+#team-carousel {
+  position: relative;
+}
+
+#team-carousel :is(.owl-prev, .owl-next) {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 5px 1px black;
+}
+
+#team-carousel .owl-prev {
+  left: -20px;
+}
+
+#team-carousel .owl-next {
+  right: -20px;
+}
+
+#team-carousel .owl-dot span {
+  width: 30px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+#team-carousel .owl-dot.active span {
+  width: 50px;
+  background: #000;
+}
+
+.section-5 {
+    display: flex;
+    max-width: 1100px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #F6F6F6;
+    margin-top: 155px;
+    column-gap: 40px;
+}
+
+
+.section-5 img {
+    padding: 33px 110px 33px 0;
+    width: 100%;
+}
+
+.section-5-text {
+    padding: 107px 100px 117px 100px;
+}
+
+.dark .img {
+    background-color: transparent;
+}
+
+.dark .home-left {
+    background-color: transparent;
+}
+
+.dark .watch-text-list p {
+    color: #fff;
+}
+
+
+.section-5-text h3 {
+    color: #1E1D1D;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section-5-text p {
+    color: #8B8E99;
+    font-family: Inter;
+    margin: 20px 0 20px 0;
+}
+
+
+footer {
+    background-color: #000;
+    /* padding-top: 90px; */
+}
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.Subscribe {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.Subscribe input {
+    width: 443px;
+    height: 60px;
+    padding: 15px 20px  15px  56px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    background: #FFF;
+}
+
+.Subscribe button {
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    width: 112px;
+    height: 45px;
+    padding: 10px 6px 14px 6px;
+    border: none;;
+    background-color: #3858D6;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-list i {
+    display: none;
+}
+
+@media (max-width: 1100px) {
+  .watches-3  {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .watches  {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+
+
+
+@media (max-width: 700px) {
+  .watches-3  {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  .home  {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width:800px) {
+    .section-5 img {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:450px) {
+    form , .home-right {
+        display: none;
+
+    }
+}
+
+
+
+
+
+
